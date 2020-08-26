@@ -1,1 +1,68 @@
-/* pages/my/my.wxss */
+.my{
+  width: 100%;
+}
+.head_portrait{
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.head_portrait>image{
+  width: 100%;
+  height: 100%;
+}
+.head_content{
+  width: 450rpx;
+  height: 250rpx;
+  background: rgba(252, 220, 111, 0.5);
+  border-radius: 20rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 20rpx 0;
+}
+.head_content>image{
+    width: 130rpx;
+    height: 130rpx;
+    border-radius: 50%;
+}
+.name{
+  color: #fff;
+  font-weight: bold;
+}
+.phone{
+  color: #fff;
+}
+.fn_box{
+  width: 100%;
+  padding: 50rpx;
+  display: flex;
+}
+.fn_left{
+  width: 50%;
+  border-right: 1px #eee solid;
+}
+.fn_right{
+  width: 50%;
+}
+.fn_echo{
+  width: 100%;
+  padding: 40rpx 0;
+  border-bottom: 1px #eee solid;
+  text-align: center;
+}
+.fn_echo>image{
+  width: 60rpx;
+  height: 60rpx;
+  display: block;
+  margin: 0 auto;
+}
+.fn_echo:nth-last-child(1){
+  border-bottom: none;
+}
+.fn_echo>text{
+  display: block;
+  font-weight: bold;
+  margin-top: 20rpx;
+}

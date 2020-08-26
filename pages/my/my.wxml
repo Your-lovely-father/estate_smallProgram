@@ -1,2 +1,42 @@
-<!--pages/my/my.wxml-->
-<text>我的</text>
+<view class="my">
+    <!--头像区域  -->
+    <view class="head_portrait">
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598422983630&di=1c5f1684182d1cb2ba7e62209717b6d0&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20151218%2Ftooopen_sy_152003865895.jpg"></image>
+      <view class="head_content">
+        <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2141623099,2896788564&fm=26&gp=0.jpg"></image>
+        <view class="name">释怀</view>
+        <view class="phone">15942999924</view>
+      </view>
+    </view>
+    <!-- 功能区域 -->
+    <view class="fn_box">
+      <view class="fn_left">
+          <view class="fn_echo">
+            <image src="../../assets/image/01a_03.gif"></image>
+            <text>我的发布出售</text>
+          </view>
+             <view class="fn_echo">
+            <image src="../../assets/image/01a_14.gif"></image>
+            <text>我的求购</text>
+          </view>
+             <view class="fn_echo">
+            <image src="../../assets/image/01a_19.gif"></image>
+            <text>我的关注</text>
+          </view>
+      </view>
+      <view class="fn_right">
+           <view class="fn_echo">
+            <image src="../../assets/image/01a_06.gif"></image>
+            <text>我的发布出租</text>
+          </view>
+             <view class="fn_echo">
+            <image src="../../assets/image/01a_11.gif"></image>
+            <text>我的求组</text>
+          </view>
+             <view class="fn_echo">
+            <image src="../../assets/image/01a_21.gif"></image>
+            <text>我的足迹</text>
+          </view>
+      </view>
+    </view>
+</view>
