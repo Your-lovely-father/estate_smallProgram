@@ -163,12 +163,15 @@
     display: flex;
     padding: 30rpx 0;
     justify-content: space-between;
+    
 }
-
-.title_text>text {
+.title_text>text{
     color: #222222;
     font-weight: bold;
     font-size: 35rpx;
+}
+.bold_size{
+    font-size: 28rpx !important;
 }
 
 .more_more>text:nth-child(1) {

@@ -28,61 +28,61 @@
 				<view class="nav_content">
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/二手房.png"></image>
+							<image src="../../assets/image/reshoufang.png"></image>
 						</view>
 						<text>二手房</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/新房.png"></image>
+							<image src="../../assets/image/xinfang.png"></image>
 						</view>
 						<text>新房</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/租房.png"></image>
+							<image src="../../assets/image/zhufang.png"></image>
 						</view>
 						<text>租房</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/写字间.png"></image>
+							<image src="../../assets/image/xiezijian.png"></image>
 						</view>
 						<text>写字间</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/商铺办公.png"></image>
+							<image src="../../assets/image/bangong.png"></image>
 						</view>
 						<text>商铺办公</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/房屋装修.png"></image>
+							<image src="../../assets/image/zhunagxiu.png"></image>
 						</view>
 						<text>房屋装修</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/房屋家政.png"></image>
+							<image src="../../assets/image/jiazhneg.png"></image>
 						</view>
 						<text>房屋家政</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/卖家具.png"></image>
+							<image src="../../assets/image/maijiaju.png"></image>
 						</view>
 						<text>卖家具</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/卖房.png"></image>
+							<image src="../../assets/image/maifang.png"></image>
 						</view>
 						<text>卖房</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/必看好房.png"></image>
+							<image src="../../assets/image/bikan.png"></image>
 						</view>
 						<text>必看好房</text>
 					</view>
@@ -92,31 +92,31 @@
 				<view class="nav_content">
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/买卖流程.png"></image>
+							<image src="../../assets/image/liucheng.png"></image>
 						</view>
 						<text>买卖流程</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/房贷计算.png"></image>
+							<image src="../../assets/image/jisuang.png"></image>
 						</view>
 						<text>房贷计算</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/查成交.png"></image>
+							<image src="../../assets/image/chachengjiao.png"></image>
 						</view>
 						<text>查成交</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/房屋估价.png"></image>
+							<image src="../../assets/image/fangwugujia.png"></image>
 						</view>
 						<text>房屋估价</text>
 					</view>
 					<view class="nav_single">
 						<view class="nav_img">
-							<image src="../../assets/image/找经纪人.png"></image>
+							<image src="../../assets/image/zhaojingjiren.png"></image>
 						</view>
 						<text>找经纪人</text>
 					</view>
@@ -128,15 +128,15 @@
 	<view class="looking_room">
 		<text>帮我找房</text>
 		<view class="romm_img">
-			<image src="../../assets/image/帮我找房.png"></image>
+			<image src="../../assets/image/bangwozhaofang.png"></image>
 		</view>
 	</view>
 	<!-- 房屋工具 -->
 	<view class="tool">
 		<text>房屋工具</text>
 		<view class="tool_img">
-			<image src="../../assets/image/采购.png"></image>
-			<image src="../../assets/image/求租.png"></image>
+			<image src="../../assets/image/caigou.png"></image>
+			<image src="../../assets/image/qiuzhu.png"></image>
 		</view>
 	</view>
 	<!-- 本周热门 -->
@@ -144,7 +144,7 @@
 		<!-- title 区域 -->
 		<view class="hot_title">
 			<view class="title_text">
-				<text> 新房 ● 本周热门好盘</text>
+				<text> 新房 <text class="bold_size">●</text> 本周热门好盘</text>
 			</view>
 			<view class="more_more">
 				<text>更多</text>
@@ -165,40 +165,40 @@
 			</view>
 			<view class="hot_each">
 				<view class="each_img">
-					<image src="../../assets/image/1.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/89b19949b7c24aa4068adb5a52309f34/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="each_text">
-					<view class="building_name">首开如愿</view>
+					<view class="building_name">恒大家园</view>
 					<view class="square">90-183 m²</view>
 					<view class="price">15000 元 / m²</view>
 				</view>
 			</view>
 			<view class="hot_each">
 				<view class="each_img">
-					<image src="../../assets/image/1.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/hj/25f0bfd71bbc51f3293695352e2e0a00/600x450c.jpg?t=1"></image>
 				</view>
 				<view class="each_text">
-					<view class="building_name">首开如愿</view>
+					<view class="building_name">保利家园</view>
 					<view class="square">90-183 m²</view>
 					<view class="price">15000 元 / m²</view>
 				</view>
 			</view>
 			<view class="hot_each">
 				<view class="each_img">
-					<image src="../../assets/image/1.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/hj/7104e47bbc64a6454021f9fa38dbb176/600x450c.jpg?t=1"></image>
 				</view>
 				<view class="each_text">
-					<view class="building_name">首开如愿</view>
+					<view class="building_name">橡树湾</view>
 					<view class="square">90-183 m²</view>
 					<view class="price">15000 元 / m²</view>
 				</view>
 			</view>
 			<view class="hot_each">
 				<view class="each_img">
-					<image src="../../assets/image/1.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/hj/b3f35a115b23e40124b08b1c7bdc7ac6/600x450c.jpg?t=1"></image>
 				</view>
 				<view class="each_text">
-					<view class="building_name">首开如愿</view>
+					<view class="building_name">橡树湾一期</view>
 					<view class="square">90-183 m²</view>
 					<view class="price">15000 元 / m²</view>
 				</view>
@@ -210,7 +210,7 @@
 		<!-- title 区域 -->
 		<view class="hot_title">
 			<view class="title_text">
-				<text> 二手房 ● 必看好房</text>
+				<text> 二手房 <text  class="bold_size"> ● </text> 必看好房</text>
 			</view>
 			<view class="more_more">
 				<text>更多</text>
@@ -282,7 +282,7 @@
 		<view class="housing_content">
 			<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/3.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/d064bb47962595ed06fa8b7003a69768/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
@@ -299,7 +299,7 @@
 			</view>
       	<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/3.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/484e2f7884ebb2064712c14fc6f1a2fa/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
@@ -323,7 +323,7 @@
 		<view class="housing_content">
 			<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/3.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/c501ac88860521d7940604e178f0ec74/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
@@ -340,7 +340,7 @@
 			</view>
       	<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/5.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/aa10719955b8e31f657093e487abafbb/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
@@ -364,7 +364,7 @@
 		<view class="housing_content">
 			<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/4.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/d4bd17aa24e6b6733f8ebe22c0f89c3b/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
@@ -381,7 +381,7 @@
 			</view>
       	<view class="housing_each">
 				<view class="housing_img">
-					<image src="../../assets/image/3.jpg"></image>
+					<image src="https://pic1.ajkimg.com/display/anjuke/93674e8f9bae7697e9f2d4d17663c113/600x450c.jpg?t=1&srotate=1"></image>
 				</view>
 				<view class="housing_text">
 					<view class="housing_describe">精装二室，中间楼层</view>
