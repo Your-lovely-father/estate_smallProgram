@@ -1,20 +1,24 @@
-.home{
+.home {
     width: 100%;
 }
-.swiper_box{
+
+.swiper_box {
     width: 100%;
 }
-.slide-image{
+
+.slide-image {
     width: 100%;
 }
-.search{
+
+.search {
     width: 100%;
     padding: 0 40rpx;
     box-sizing: border-box;
     position: relative;
     top: -40rpx;
 }
-.search_box{
+
+.search_box {
     width: 100%;
     height: 70rpx;
     display: flex;
@@ -24,85 +28,299 @@
     border-radius: 50rpx;
     padding: 5rpx 0;
 }
-.title{
+
+.title {
     border-right: 1px solid #eee;
     width: 25%;
     text-align: center;
 }
-.title>text:nth-child(1){
-  color: #3283ef;
-  margin-right: 6rpx;
+
+.title>text:nth-child(1) {
+    color: #3283ef;
+    margin-right: 6rpx;
 }
-.search_int{
-    width:75%;
+
+.search_int {
+    width: 75%;
 }
-.search_int>input{
+
+.search_int>input {
     padding-left: 20rpx;
 }
-.nav_box{
+
+.nav_box {
     width: 100%;
     padding: 0 40rpx;
     height: 380rpx;
     box-sizing: border-box;
 }
-.nav_box>swiper{
+
+.nav_box>swiper {
     width: 100%;
     height: 380rpx;
 }
-.nav_content{
+
+.nav_content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
-.nav_single{
+
+.nav_single {
     width: 20%;
     text-align: center;
     margin-bottom: 20rpx;
 }
-.nav_img>image{
+
+.nav_img>image {
     width: 100rpx;
     height: 100rpx;
 }
-.nav_single>text{
+
+.nav_single>text {
     font-weight: bolder;
     font-size: 30rpx;
 }
-  /* 设置点点的样式 */
+
+/* 设置点点的样式 */
 .nav_box>swiper .wx-swiper-dot {
     width: 35rpx;
     height: 7rpx;
     display: inline-flex;
-  }
-   
-   /* 当前点点的样式 */
+}
+
+/* 当前点点的样式 */
 .nav_box>swiper .wx-swiper-dot::before {
     content: '';
     flex-grow: 1;
     background: #eee;
     margin-left: -16rpx;
 
-  }
-   
-  /* 当前点点的样式 */
-  .nav_box>swiper .wx-swiper-dot-active::before {
+}
+
+/* 当前点点的样式 */
+.nav_box>swiper .wx-swiper-dot-active::before {
     background: #ffd900;
-  }
-  .looking_room{
-      width: 100%;
-      padding: 0 40rpx;
-      box-sizing: border-box;
-  }
-  .looking_room>text{
+}
+
+.looking_room {
     width: 100%;
-    padding:30rpx 0;
+    padding: 0 40rpx;
+    box-sizing: border-box;
+}
+
+.looking_room>text {
+    width: 100%;
+    padding: 30rpx 0;
     font-weight: bold;
     display: block;
-  }
-  .romm_img{
-      width: 100%;
-      height: 180rpx;
-  }
-  .romm_img>image{
+    font-size: 35rpx;
+}
+
+.romm_img {
+    width: 100%;
+    height: 180rpx;
+}
+
+.romm_img>image {
     width: 100%;
     height: 100%;
-  }
+}
+
+.tool {
+    width: 100%;
+    padding: 0 40rpx;
+    box-sizing: border-box;
+}
+
+.tool>text {
+    width: 100%;
+    padding: 30rpx 0;
+    font-weight: bold;
+    display: block;
+    font-size: 35rpx;
+}
+
+.tool_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool_img>image {
+    width: 320rpx;
+    height: 180rpx;
+}
+
+.hot {
+    width: 100%;
+    padding: 0 40rpx;
+    box-sizing: border-box;
+}
+
+.hot_title {
+    width: 100%;
+    display: flex;
+    padding: 30rpx 0;
+    justify-content: space-between;
+}
+
+.title_text>text {
+    color: #222222;
+    font-weight: bold;
+    font-size: 35rpx;
+}
+
+.more_more>text:nth-child(1) {
+    font-weight: bold;
+}
+
+.more_more>text {
+    color: #969696;
+}
+
+.hot_content {
+    width: 100%;
+    white-space: nowrap;
+    /*文本不会换行，文本会在在同一行上继续*/
+    overflow-y: auto;
+    /*可滑动*/
+}
+
+/*自定义滚动条的伪对象选择器, CSS 可以隐藏滚动条*/
+.hot_content::-webkit-scrollbar {
+    display: none;
+}
+
+.hot_each {
+    width: 280rpx;
+    display: inline-block;
+    /*行内块元素*/
+    margin-right: 20rpx;
+}
+
+.each_img>image {
+    width: 100%;
+    height: 200rpx;
+}
+
+.each_text {
+    width: 100%;
+}
+
+.building_name {
+    font-weight: bold;
+}
+
+.square {
+    color: #b1b1b1;
+}
+
+.price {
+    color: #eb5d4f;
+    font-weight: bolder;
+}
+
+.each_img {
+    position: relative;
+}
+
+.city {
+    position: absolute;
+    top: 20rpx;
+    left: 20rpx;
+    color: #fff;
+    padding: 5rpx 20rpx;
+    background: rgba(239, 207, 108, 0.8);
+}
+
+.housing {
+    width: 100%;
+    padding: 0 40rpx;
+}
+
+.housing>text {
+    font-weight: bold;
+    display: block;
+    font-size: 35rpx;
+    padding: 30rpx 0;
+}
+
+.housing_content {
+    width: 100%;
+    height: auto;
+}
+.housing_each:nth-last-child(1) {
+    border-bottom: none;
+}
+.housing_each:nth-child(1) {
+    padding-top: 0;
+}
+.housing_each {
+    width: 100%;
+    /* height: 230rpx; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding:30rpx 0;
+}
+.housing_img {
+    width: 45%;
+}
+.housing_img>image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.housing_text {
+    width: 50%;
+}
+.housing_describe{
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 30rpx;
+    width: 100%;
+}
+.housing_name{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-top: 15rpx;
+}
+.housing_label{
+    width: 100%;
+    margin-top: 20rpx;
+}
+.housing_label>text{
+    color: #888;
+    background: #eee;
+    padding: 8rpx 15rpx;
+    margin-right: 15rpx;
+}
+.housing_price{
+    width: 100%;
+    margin-top: 20rpx;
+}
+.housing_price>text:nth-child(1){
+    color: #fe5955;
+    font-weight: bold;
+    font-size: 30rpx;
+}
+.housing_price>text:nth-child(2){
+    color: #999999;
+    font-weight: bolder;
+    font-size: 26rpx;
+}
+.moreMore_btn{
+    width: 100%;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    color: #d5bf6a;
+    font-weight: bolder;
+    background: #fbfbfb;
+    border-radius: 5rpx;
+}

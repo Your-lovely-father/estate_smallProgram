@@ -1,142 +1,402 @@
 <view class="home">
-  <!-- bander区域 -->
-   <view class="swiper_box">
-     <swiper 
-      autoplay="{{autoplay}}"
-      circular="{{circular}}"
-      interval="{{interval}}"
-      duration="{{duration}}"
-     >
-      <block wx:for="{{banner}}" wx:key="{{index}}">
-        <swiper-item>
-          <image src="{{item}}" class="slide-image" />
-        </swiper-item>
-      </block>
-    </swiper>
-    </view>
-    <!-- 搜索区域 -->
-    <view class="search">
-      <view class="search_box">
-        <view class="title">
-          <text class="iconfont icon-weizhi"></text>
-          <text>大连</text>
-        </view>
-        <view class="search_int">
-          <input placeholder="你想住在哪里？"></input>
-        </view>
-      </view>
-    </view>
-    <!-- nav 导航栏区域 -->
-    <view class="nav_box">
-         <swiper 
-            indicator-dots="{{indicatorDots}}"
-          >
-            <swiper-item>
-              <view class="nav_content">
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/二手房.png"></image>
-                    </view>
-                    <text>二手房</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/新房.png"></image>
-                    </view>
-                    <text>新房</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/租房.png"></image>
-                    </view>
-                    <text>租房</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/写字间.png"></image>
-                    </view>
-                    <text>写字间</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/商铺办公.png"></image>
-                    </view>
-                    <text>商铺办公</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/房屋装修.png"></image>
-                    </view>
-                    <text>房屋装修</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/房屋家政.png"></image>
-                    </view>
-                    <text>房屋家政</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/卖家具.png"></image>
-                    </view>
-                    <text>卖家具</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/卖房.png"></image>
-                    </view>
-                    <text>卖房</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/必看好房.png"></image>
-                    </view>
-                    <text>必看好房</text>
-                  </view>
-              </view>
-            </swiper-item>
-             <swiper-item>
-              <view class="nav_content">
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/买卖流程.png"></image>
-                    </view>
-                    <text>买卖流程</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/房贷计算.png"></image>
-                    </view>
-                    <text>房贷计算</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/查成交.png"></image>
-                    </view>
-                    <text>查成交</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/房屋估价.png"></image>
-                    </view>
-                    <text>房屋估价</text>
-                  </view>
-                  <view class="nav_single">
-                    <view class="nav_img">
-                      <image src="../../assets/image/找经纪人.png"></image>
-                    </view>
-                    <text>找经纪人</text>
-                  </view>
-              </view>
-            </swiper-item>
-        </swiper>
-    </view>
-    <!-- 帮我找房 -->
-    <view class="looking_room">
-      <text>帮我找房</text>
-      <view class="romm_img">
-        <image src="../../assets/image/帮我找房.png"></image>
-      </view>
-    </view>
-    <!--  -->
+	<!-- bander区域 -->
+	<view class="swiper_box">
+		<swiper autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{banner}}" wx:key="{{index}}">
+				<swiper-item>
+					<image src="{{item}}" class="slide-image" />
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<!-- 搜索区域 -->
+	<view class="search">
+		<view class="search_box">
+			<view class="title">
+				<text class="iconfont icon-weizhi"></text>
+				<text>大连</text>
+			</view>
+			<view class="search_int">
+				<input placeholder="你想住在哪里？"></input>
+			</view>
+		</view>
+	</view>
+	<!-- nav 导航栏区域 -->
+	<view class="nav_box">
+		<swiper indicator-dots="{{indicatorDots}}">
+			<swiper-item>
+				<view class="nav_content">
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/二手房.png"></image>
+						</view>
+						<text>二手房</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/新房.png"></image>
+						</view>
+						<text>新房</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/租房.png"></image>
+						</view>
+						<text>租房</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/写字间.png"></image>
+						</view>
+						<text>写字间</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/商铺办公.png"></image>
+						</view>
+						<text>商铺办公</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/房屋装修.png"></image>
+						</view>
+						<text>房屋装修</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/房屋家政.png"></image>
+						</view>
+						<text>房屋家政</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/卖家具.png"></image>
+						</view>
+						<text>卖家具</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/卖房.png"></image>
+						</view>
+						<text>卖房</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/必看好房.png"></image>
+						</view>
+						<text>必看好房</text>
+					</view>
+				</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="nav_content">
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/买卖流程.png"></image>
+						</view>
+						<text>买卖流程</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/房贷计算.png"></image>
+						</view>
+						<text>房贷计算</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/查成交.png"></image>
+						</view>
+						<text>查成交</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/房屋估价.png"></image>
+						</view>
+						<text>房屋估价</text>
+					</view>
+					<view class="nav_single">
+						<view class="nav_img">
+							<image src="../../assets/image/找经纪人.png"></image>
+						</view>
+						<text>找经纪人</text>
+					</view>
+				</view>
+			</swiper-item>
+		</swiper>
+	</view>
+	<!-- 帮我找房 -->
+	<view class="looking_room">
+		<text>帮我找房</text>
+		<view class="romm_img">
+			<image src="../../assets/image/帮我找房.png"></image>
+		</view>
+	</view>
+	<!-- 房屋工具 -->
+	<view class="tool">
+		<text>房屋工具</text>
+		<view class="tool_img">
+			<image src="../../assets/image/采购.png"></image>
+			<image src="../../assets/image/求租.png"></image>
+		</view>
+	</view>
+	<!-- 本周热门 -->
+	<view class="hot">
+		<!-- title 区域 -->
+		<view class="hot_title">
+			<view class="title_text">
+				<text> 新房 ● 本周热门好盘</text>
+			</view>
+			<view class="more_more">
+				<text>更多</text>
+				<text class="iconfont .icon-arrow-right"></text>
+			</view>
+		</view>
+		<!-- 楼盘相关内容 -->
+		<view class="hot_content">
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/1.jpg"></image>
+				</view>
+				<view class="each_text">
+					<view class="building_name">首开如愿</view>
+					<view class="square">90-183 m²</view>
+					<view class="price">15000 元 / m²</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/1.jpg"></image>
+				</view>
+				<view class="each_text">
+					<view class="building_name">首开如愿</view>
+					<view class="square">90-183 m²</view>
+					<view class="price">15000 元 / m²</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/1.jpg"></image>
+				</view>
+				<view class="each_text">
+					<view class="building_name">首开如愿</view>
+					<view class="square">90-183 m²</view>
+					<view class="price">15000 元 / m²</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/1.jpg"></image>
+				</view>
+				<view class="each_text">
+					<view class="building_name">首开如愿</view>
+					<view class="square">90-183 m²</view>
+					<view class="price">15000 元 / m²</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/1.jpg"></image>
+				</view>
+				<view class="each_text">
+					<view class="building_name">首开如愿</view>
+					<view class="square">90-183 m²</view>
+					<view class="price">15000 元 / m²</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 本周热门 -->
+	<view class="hot">
+		<!-- title 区域 -->
+		<view class="hot_title">
+			<view class="title_text">
+				<text> 二手房 ● 必看好房</text>
+			</view>
+			<view class="more_more">
+				<text>更多</text>
+				<text class="iconfont .icon-arrow-right"></text>
+			</view>
+		</view>
+		<!-- 楼盘相关内容 -->
+		<view class="hot_content">
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/2.jpg"></image>
+					<text class="city">沈阳</text>
+				</view>
+				<view class="each_text">
+					<view class="building_name">一室一厅 / 81 m²</view>
+					<view class="square">36人关注此房源</view>
+					<view class="price">48 万 /套</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/2.jpg"></image>
+					<text class="city">沈阳</text>
+				</view>
+				<view class="each_text">
+					<view class="building_name">一室一厅 / 81 m²</view>
+					<view class="square">36人关注此房源</view>
+					<view class="price">48 万 /套</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/2.jpg"></image>
+					<text class="city">沈阳</text>
+				</view>
+				<view class="each_text">
+					<view class="building_name">一室一厅 / 81 m²</view>
+					<view class="square">36人关注此房源</view>
+					<view class="price">48 万 /套</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/2.jpg"></image>
+					<text class="city">沈阳</text>
+				</view>
+				<view class="each_text">
+					<view class="building_name">一室一厅 / 81 m²</view>
+					<view class="square">36人关注此房源</view>
+					<view class="price">48 万 /套</view>
+				</view>
+			</view>
+			<view class="hot_each">
+				<view class="each_img">
+					<image src="../../assets/image/2.jpg"></image>
+					<text class="city">沈阳</text>
+				</view>
+				<view class="each_text">
+					<view class="building_name">一室一厅 / 81 m²</view>
+					<view class="square">36人关注此房源</view>
+					<view class="price">48 万 /套</view>
+				</view>
+			</view>
+		</view>
+	</view>
+  <!-- 猜你喜欢的二手房 -->
+	<view class="housing">
+		<text>猜你喜欢的二手房</text>
+		<view class="housing_content">
+			<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/3.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+      	<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/3.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+  	</view>
+		<navigator class="moreMore_btn">查看更多二手房</navigator>
+	</view>
+  <!-- 猜你喜欢的新房 -->
+	<view class="housing">
+		<text>猜你喜欢的新房</text>
+		<view class="housing_content">
+			<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/3.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+      	<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/5.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+  	</view>
+		<navigator class="moreMore_btn">查看更多新房</navigator>
+	</view>
+  <!-- 猜你喜欢的租房 -->
+  	<view class="housing">
+		<text>猜你喜欢的租房</text>
+		<view class="housing_content">
+			<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/4.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+      	<view class="housing_each">
+				<view class="housing_img">
+					<image src="../../assets/image/3.jpg"></image>
+				</view>
+				<view class="housing_text">
+					<view class="housing_describe">精装二室，中间楼层</view>
+					<view class="housing_name">1室2厅/79.04m²/泰德青州</view>
+					<view class="housing_label">
+						<text>随时看房</text>
+						<text>车接车送</text>
+					</view>
+					<view class="housing_price">
+						<text>77万</text>
+						<text>10898.7元/平</text>
+					</view>
+				</view>
+			</view>
+  	</view>
+		<navigator class="moreMore_btn">查看更多租房</navigator>
+	</view>
 </view>
