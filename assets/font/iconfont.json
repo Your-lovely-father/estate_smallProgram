@@ -1,0 +1,44 @@
+{
+  "id": "2052558",
+  "name": "small_program",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1277697",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "1563045",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1725617",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6528214",
+      "name": "消息",
+      "font_class": "xiaoxi1",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "14658638",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

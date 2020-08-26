@@ -1,0 +1,8 @@
+/*公用样式表*/page,view,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 引入字体图标库 */
+@import 'assets/font/iconfont.wxss'
+/* footer 样式 */

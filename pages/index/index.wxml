@@ -1,0 +1,142 @@
+<view class="home">
+  <!-- bander区域 -->
+   <view class="swiper_box">
+     <swiper 
+      autoplay="{{autoplay}}"
+      circular="{{circular}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+     >
+      <block wx:for="{{banner}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+    </view>
+    <!-- 搜索区域 -->
+    <view class="search">
+      <view class="search_box">
+        <view class="title">
+          <text class="iconfont icon-weizhi"></text>
+          <text>大连</text>
+        </view>
+        <view class="search_int">
+          <input placeholder="你想住在哪里？"></input>
+        </view>
+      </view>
+    </view>
+    <!-- nav 导航栏区域 -->
+    <view class="nav_box">
+         <swiper 
+            indicator-dots="{{indicatorDots}}"
+          >
+            <swiper-item>
+              <view class="nav_content">
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/二手房.png"></image>
+                    </view>
+                    <text>二手房</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/新房.png"></image>
+                    </view>
+                    <text>新房</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/租房.png"></image>
+                    </view>
+                    <text>租房</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/写字间.png"></image>
+                    </view>
+                    <text>写字间</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/商铺办公.png"></image>
+                    </view>
+                    <text>商铺办公</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/房屋装修.png"></image>
+                    </view>
+                    <text>房屋装修</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/房屋家政.png"></image>
+                    </view>
+                    <text>房屋家政</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/卖家具.png"></image>
+                    </view>
+                    <text>卖家具</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/卖房.png"></image>
+                    </view>
+                    <text>卖房</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/必看好房.png"></image>
+                    </view>
+                    <text>必看好房</text>
+                  </view>
+              </view>
+            </swiper-item>
+             <swiper-item>
+              <view class="nav_content">
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/买卖流程.png"></image>
+                    </view>
+                    <text>买卖流程</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/房贷计算.png"></image>
+                    </view>
+                    <text>房贷计算</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/查成交.png"></image>
+                    </view>
+                    <text>查成交</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/房屋估价.png"></image>
+                    </view>
+                    <text>房屋估价</text>
+                  </view>
+                  <view class="nav_single">
+                    <view class="nav_img">
+                      <image src="../../assets/image/找经纪人.png"></image>
+                    </view>
+                    <text>找经纪人</text>
+                  </view>
+              </view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 帮我找房 -->
+    <view class="looking_room">
+      <text>帮我找房</text>
+      <view class="romm_img">
+        <image src="../../assets/image/帮我找房.png"></image>
+      </view>
+    </view>
+    <!--  -->
+</view>

@@ -1,0 +1,108 @@
+.home{
+    width: 100%;
+}
+.swiper_box{
+    width: 100%;
+}
+.slide-image{
+    width: 100%;
+}
+.search{
+    width: 100%;
+    padding: 0 40rpx;
+    box-sizing: border-box;
+    position: relative;
+    top: -40rpx;
+}
+.search_box{
+    width: 100%;
+    height: 70rpx;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 3px 1px #eee;
+    border-radius: 50rpx;
+    padding: 5rpx 0;
+}
+.title{
+    border-right: 1px solid #eee;
+    width: 25%;
+    text-align: center;
+}
+.title>text:nth-child(1){
+  color: #3283ef;
+  margin-right: 6rpx;
+}
+.search_int{
+    width:75%;
+}
+.search_int>input{
+    padding-left: 20rpx;
+}
+.nav_box{
+    width: 100%;
+    padding: 0 40rpx;
+    height: 380rpx;
+    box-sizing: border-box;
+}
+.nav_box>swiper{
+    width: 100%;
+    height: 380rpx;
+}
+.nav_content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_single{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20rpx;
+}
+.nav_img>image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.nav_single>text{
+    font-weight: bolder;
+    font-size: 30rpx;
+}
+  /* 设置点点的样式 */
+.nav_box>swiper .wx-swiper-dot {
+    width: 35rpx;
+    height: 7rpx;
+    display: inline-flex;
+  }
+   
+   /* 当前点点的样式 */
+.nav_box>swiper .wx-swiper-dot::before {
+    content: '';
+    flex-grow: 1;
+    background: #eee;
+    margin-left: -16rpx;
+
+  }
+   
+  /* 当前点点的样式 */
+  .nav_box>swiper .wx-swiper-dot-active::before {
+    background: #ffd900;
+  }
+  .looking_room{
+      width: 100%;
+      padding: 0 40rpx;
+      box-sizing: border-box;
+  }
+  .looking_room>text{
+    width: 100%;
+    padding:30rpx 0;
+    font-weight: bold;
+    display: block;
+  }
+  .romm_img{
+      width: 100%;
+      height: 180rpx;
+  }
+  .romm_img>image{
+    width: 100%;
+    height: 100%;
+  }
